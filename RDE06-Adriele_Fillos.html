@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon_af.ico" type="image/x-icon">
+
+    <title>Síntese RDE06</title>
+</head>
+
+<body>
+    <h1><font color="green">Síntese da Aula</font></h1>
+
+       <h2><font color="green">Software de Versionamento</font></h2>
+
+       <ul>
+           <li><font size="4,6">Sistema que tem por objetivo realizar o <b>controle de versões de um código ou documento</b>.</li>
+           <li>É possível gerenciar as <b>versões de um código ou documento</b> realizadas por um <b>desenvolvedor</b> ou <b>equipe</b> de desenvolvedores.</li>
+       </ul>
+       <p><font size="4,6">Quando vai ser desenvolvido um projeto seja codificando um <i>software</i> , <i>site</i> ou a escrita de um documento <i>word</i> de um trabalho acadêmico sobre algum tema , em geral devemos seguir alguns passos que são:</font></p>
+       <ol type="1">
+        <li>Criar uma pasta;</li>
+        <li>Criar dentro da pasta o arquivo do projeto que logo deverá ser desenvolvido;</li>
+        <li>Finalizar e entregar o projeto;</li>
+       </ol>
+       <p><font size="4,6">Feita a entrega , pode ser que ocorra a necessidade de alguma correção ou de realizar a atualização de alguma funcionalidade , então para isso , deve-se ser criada uma nova versão do arquivo , realizar as atualizações e entregar.Pode ser que esse processo ocorra por várias atualizações e consequentemente faça com que se crie vários arquivos , causando dificuldades para controlar as versões do projeto. Portano para solucionar esse problema , deve-se utilizar um software que crie um repositório local e crie , a partir do arquivo , um histórico de versões.Além do <b>repositório local</b> , pode-se ser utilizado um <b>repositório remoto</b> , principalmente se o trabalho for em equipe.Neste último caso os arquivos/projetos serão armazenados na nuvem. </font></p>
+
+       <figure>
+        <img src="Img/Sistema de software de controle.jpg" alt="Imagem sistema de software de controle" height="55%" width="55%">
+       </figure>
+
+       <ul>
+           <font size="4,6">
+           <li>Um software de controle de versão gerencia tanto o <b>histórico de versão local</b> , quanto o <b>histórico de versão remoto</b> , ou seja , ele sempre vai fazer a sincronização entre esses dois tipos de histórico de versão para que tudo esteja <b>igual</b>.</li> 
+           <li>Um software de versionamento controla as alterações permitindo ou não que os usuários façam elas e notifica os usuários.</li> 
+           <li>Após a atualização remota , cria-se uma <b>versão corrente</b> que junto com todas as outras versões é distribuída para os usuários sempre cientes das alterações que foram realizadas.</li> 
+           </font>
+        </ul>
+        
+        <h2><font color="green">Tipos de Software de Controle de Versão</font></h2>
+
+        <dl>
+            <dt><font color="green" size="4,6"><strong>Centralizado</strong></font></dt>
+             <ul><font size="4,6">
+            <li>Possui um <b>repositório central em um servidor</b> com controle de versões , ou seja , todos se conectam ao servidor e ficam trabalhando no servidor.</li>
+            <li><b>Problema:</b> Caso o servidor pare , para-se de controlar as versões e os usuários não conseguem trabalhar.</li>
+            <li><b>Dependente</b> do servidor.</li>
+            </font></ul>
+        </dl>
+
+        <dl>
+            <dt><font color="green" size="4,6"><strong>Distribuído</strong></font></dt>
+            <ul><font size="4,6">
+                <li>Possui um <b>repositório local</b> com controle de versões.</li>
+                <li>Um usuário pode ficar trabalhando localmente e quando conclui seu trabalho , realiza a <b>atualização no repositório central</b>.</li>
+                <li><b>Independente</b> do servidor (caso o servidor pare as versões ainda poderão ser controladas).</li>
+                <li><b>Exemplos:</b> Softwares <i>Mercurial</i> e <i>Git</i>.</li>
+            </font></ul>
+        </dl>
+
+        <figure>
+            <img src="Img/imagem git.jpg" alt="Imagem do software git" height="47%" width="47%">
+            <img src="Img/imagem Linus Torvalds.jpg" alt="Imagem de Linus Torvalds" height="15%" width="15%">
+           </figure>
+
+        <ul><font size="4,6">
+         <li><i>Git</i> é um software livre de versionamento que surgiu para o desenvolvimento do Kernel do Linux , foi projetado e desenvolvido por Linus Torvalds em 2005.</li>
+        <li>Cada diretório de trabalho do Git é um <b>repositório</b> com <b>um histórico completo</b> e habilidade total de <b>acompanhamento das revisões , não dependente</b> de acesso a uma rede ou a um <b>servidor central</b>.</li> 
+         </font></ul>
+
+         <figure>
+             <center>
+            <img src="Img/imagem Github.png" alt="Imagem do software Github" height="43%" width="43%">
+            </center>
+        </figure>
+         
+        <ul><font size="4,6">
+       <li>O <i>Github</i> é uma plataforma de hospedagem de código fonte e arquivos com controle de versão.</li>
+       <li>Surgiu em 2008 e foi adquirido em 2018 pela Microsoft por US$ 7,5 bilhôes.</li>
+       <li>100 milhões de projetos.</li>
+       <li>56 milhões de usuários.</li>
+       </font></ul>
+
+       <figure>
+        <center>
+       <img src="Img/imagem link das plataformas.jpg" alt="Imagem dos links das plataformas" height="54%" width="54%">
+      </center>
+      </figure>
+
+      <h2><font color="green">Comandos GIT</font></h2>
+     
+      <figure>
+       <img src="Img/imagem comandos GIT.jpg" alt="Imagem dos comandos GIT" height="54%" width="54%">
+      </figure>
+       
+      <ul><font size="4,6">
+          <li>A vantagem de utilizar o sistema de direcionamento com a possibilidade de manter repositório local e repositório remoto é a capacidade de fazer alterações de código no projeto em qualquer local.</li> 
+          <li>É possível realizar <i>commit</i> dentro da plataforma do <i>Bithub</i>.</li>
+          <li>O <i>pull origin</i> pucha o arquivo para sincronizar a máquina.</li>
+        </font></ul>
+
+        <h2><font color="green">Clonando Repositórios</font></h2>
+
+        <p><font size="4,6">Como fazer uma cópia de um repositório que está remoto:</font></p>
+
+        <ol type="1"><font size="4,6">
+        <li>Entra no Github Desktop.</li>
+        <li>Clica em <b>add</b>.</li>
+        <li>Clica em <b>clone repository</b>.</li>
+        <li>Clica no repositório que quer clonar.</li>
+        <li>Clica em <b>clone</b>.</li>
+        </font></ol>
+
+        <h2><font color="green">Projetos Pré-Existentes</font></h2>
+
+        <ol type="1"><font size="4,6">
+            <li>Entra no Github Desktop.</li>
+            <li>Clica em <b>File</b>.</li>
+            <li>Clica em <b>New repository</b>.</li>
+            <li>Escolhe um nome.</li>
+            <li>Faz a descrição(description).</li>
+            <li>Marca a opção <b>"initialize this repository with a README"</b></li>
+            <li>Clica na licença <b>"MIT License"</b>.</li>
+            <li>Clica em <b>"create repository"</b>.</li>
+            <li>Cola os arquivos do <i>VisualStudio Code</i> na pasta do <i>Github</i> e todos os arquivos vão aparecer no <i>Github</i>.</li>
+            <li>Faz o <i>commiting</i> e clica em <b>"commiting"</b>.</li>
+            <li>Clica em <b>"publish repository"</b>.</li>
+            </font></ol>
+
+
+</body>
+</html>
